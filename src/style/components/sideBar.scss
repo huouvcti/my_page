@@ -1,0 +1,83 @@
+@import "../var/color.scss";
+
+$sideBarBlog_width: 500px;
+
+.sideBarBlog_layout {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    .mainContent {
+        width: 100%;
+    }
+
+}
+
+.sideBar_blog {
+    min-width: 440px;
+
+    padding: 25px;
+
+    background-color: #fff;
+    border-right: 1px solid $main_color;
+
+
+
+    display: flex;
+    flex-direction: column;
+
+
+    .profile {
+        
+
+        .profile_img {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            background-color: $main_color;
+            display: block;
+            margin: auto;
+        }
+
+        p {
+            margin: 25px 0;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+
+    .searchWrap {
+        width: 100%;
+        margin: 25px 0;
+
+        #searchInput {
+            display: block;
+            width: 100%;
+            height: 40px;
+            border-radius: 10px;
+            outline: none;
+
+            background-color: #eee;
+            border: 1px solid #ddd;
+
+            font-size: 18px;
+            padding-left: 15px;
+        }
+
+        
+    }
+
+
+    .postListWrap {
+        ul {
+            list-style: none;
+
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+
+}
