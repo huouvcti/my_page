@@ -13,7 +13,7 @@ const Blog_main = () => {
         <div className='mainSection_wrap'>
             <div className='mainSection'>
                 <div className=''>
-                    Recent Post
+                    <h2>Recent Post</h2>
                     <div>
                         <div></div>
                         <div></div>
@@ -28,8 +28,10 @@ const Blog_main = () => {
                     </div>
                 </div>
 
+                <hr />
+
                 <div>
-                    Popular Post
+                    <h2>Popular Post</h2>
 
                     <div>
                         <div></div>
@@ -45,8 +47,10 @@ const Blog_main = () => {
                     </div>
                 </div>
 
+                <hr />
+
                 <div>
-                    ...
+                    <h2>...</h2>
 
                     <div>
                         <div></div>

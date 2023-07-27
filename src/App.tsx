@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { BrowserRouter } from 'react-router-dom';
 import { Routes, Route } from "react-router-dom";
 
 
@@ -21,7 +22,7 @@ function App() {
         <Routes>
             <Route path='/' element={<Main />} />
             
-            <Route path='/blog' element={<Blog />} />
+            <Route path='/blog/*' element={<Blog />} />
 
 
             <Route path="/*" element={<Error404 />} />

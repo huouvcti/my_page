@@ -7,6 +7,7 @@ import Header_blog from '../../components/header/Header_blog';
 import SideBar_blog from '../../components/sideBar/SideBar_blog';
 
 import Blog_main from '../blog/blog_main';
+import Blog_write from '../blog/blog_write';
 
 
 
@@ -22,6 +23,8 @@ const Blog = () => {
             <Header_blog></Header_blog>
                 <Routes>
                     <Route path='/' element={<Blog_main />} />
+
+                    <Route path='/write' element={<Blog_write />} />
 
                     {/* <Route path='/' element={<Blog_ />} /> */}
                 </Routes>
